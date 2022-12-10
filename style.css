@@ -1,0 +1,753 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.obal {
+    display: grid;
+    gap: 0em;
+}
+
+
+/* pozadia stránky */
+
+.pozadie1 {
+    min-height: 59.125em /* 946px */;
+    background: url(fotky/pozadie1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.pozadie2 {
+    height: 49.25em; /*788px */
+    background: url(fotky/mapa.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.pozadie3 {
+    height: 39em; /* 624px */
+    background-color: rgb(75, 45, 127);
+    background-size: cover;
+    background-position: center;
+}
+
+.pozadie4 {
+    height: 32.625em; /*522px */
+    background: url(fotky/pozadie2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.pozadie5 {
+    height: 61em;  /* 976px */
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+}
+
+.pozadie6 {
+    height: 100em;
+    background-color: rgb(241, 241, 241);
+    background-size: cover;
+    background-position: center;
+}
+
+.pozadie7 {
+    height: 25em;
+    background-color: rgb(75, 45, 127);
+    background-size: cover;
+    background-position: center;
+}
+
+.pozadie8 {
+    height: 36.75em; /*588px */
+    background: url(fotky/pozadie3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.pozadie9 {
+    height: 28.375em; /* 454px */
+    background: url(fotky/pozadie4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.pozadie10 {
+    height: 11em; 
+    background-color: rgb(75, 45, 127);
+    background-size: cover;
+    background-position: center;
+}
+
+.pozadie11 {
+    height: 45em; /*možno zmeniť ptm, nejaký margin na spodný pásik */
+    background: url(fotky/mapa.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.pozadie12 {
+    height: 8em; 
+    background-color: rgb(246, 246, 246);
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* koniec pozadí------------------------ */
+
+/* menu */
+
+.main-menu {
+    display: flex;
+    margin: 2em 4em;
+    justify-content: center;
+}
+
+.main-menu ul{
+    max-width: 1775px;
+    display: grid;
+    gap: 20px;
+    padding: 0;
+    list-style: none;
+    grid-template-columns: repeat(9, 1fr);
+    align-items: center;
+    
+}
+
+.main-menu a {
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    flex-direction: row;
+    color: white;
+    font-size: 1.25rem;
+}
+
+.main-menu .logo {
+    padding-right: 46rem;
+    font-size: 1.875rem;
+}
+
+
+.nazov {
+    padding-left: 0.5rem;
+}
+
+
+/* grid text + chlapík na 1. pozadí */ 
+
+.obsah-pozadia1 {
+    display: grid;
+    grid-template-rows: 782px;
+    grid-template-columns: repeat(2, 846px);
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    
+}
+
+.text1 {
+    color: white;
+    text-align: left;
+    padding-bottom: 8rem;
+}
+
+.riadok1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+}
+
+.riadok2 {
+    font-family: sans-serif;
+    font-size: 60px;
+}
+
+.riadok3 {
+    font-size: 26px;
+}
+
+.ourstory {
+    background-color: rgb(244, 34, 103);
+    width: 11rem;
+    height: 3rem;
+    border: none;
+    border-radius: 1.5rem;
+    color: white;
+}
+
+.readmore {
+    background-color: rgb(115, 51, 143);
+    width: 11rem;
+    height: 3rem;
+    border: none;
+    border-radius: 1.5rem;
+    color: white;
+}
+
+.buttony {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.ourstory {
+    margin-left: 14rem;
+}
+
+.readmore {
+    margin-left: auto;
+    margin-right: 14rem;
+}
+
+/* tu zacina 2. pozadie, text + hodinky,.. */
+
+.obsah-pozadia2 {
+    display: grid;
+    margin-top: 3.375rem; /* 54px */
+    padding-bottom: 3.375rem;
+    grid-template-rows: 680px;
+    grid-template-columns: repeat(2, 650px);
+    gap: 200px;
+    justify-content: center;
+    align-items: center;    
+}
+
+.text2 {
+    color: black;
+    text-align: left;
+}
+
+
+.riadok4 {
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+}
+
+.riadok5 {
+    font-family: sans-serif;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.riadok6 {
+    font-size: 20px;
+}
+
+.menu-druhe {
+    display: flex;
+    margin: 2rem 0rem;
+    justify-content: center;
+    
+}
+.menu-druhe ul{
+    max-width: 100%;
+    display: grid;
+    gap: 20px;
+    padding: 0;
+    list-style: none;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;    
+    color: black;
+
+}
+
+.menu-druhe a {
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    flex-direction: row;
+    font-size: 1.25rem;
+}
+
+.farebny-branding {
+    display: flex;
+    background-color: rgb(244, 34, 103);
+    width: 11rem;
+    height: 3rem;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.5rem;
+    color: white;
+}
+
+.farba-textu {
+    color: black;
+}
+
+.READ-MORE /*button*/ {
+    margin-top: 30px;
+    background-color: rgb(244, 34, 103);
+    height: 50px;
+    width: 130px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    border-bottom: 6.5px solid rgb(255, 89, 144);
+}
+
+/* tu zacina 3. pozadie, 3 texty s rozhlasmi */
+
+
+.obsah-pozadia3 {
+    display: grid;
+    grid-template-rows: 39em /* 624px */;
+    grid-template-columns: repeat(3, 32em);
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    gap: 6rem;
+}
+
+.obsah-pozadia3 h1 {
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.obsah-pozadia3 h3 {
+    font-size: 1.8rem;
+    font-family: Tahoma;
+}
+
+.obsah-pozadia3 h6 {
+    font-family: sans-serif;
+}
+
+.item1 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+
+}
+
+.item2 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.farba {
+    display: flex;
+    height: 100%;
+    background-color: rgb(64, 40, 106);
+    align-items: center;
+}
+
+.item3 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+/* tu zacina 4. pozadie, text + btn read more */
+
+.obsah-pozadia4 {
+    display: grid;
+    grid-template-columns: 75rem;
+    place-items: center;
+    margin: 6.34375rem 0rem;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.riadok7 {
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+}
+
+.riadok8 {
+    font-family: sans-serif;
+    font-size: 60px;
+}
+
+.riadok9 {
+    font-size: 26px;
+}
+
+.obsah-pozadia4 .READ-MORE {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/* tu začína 5. pozadie, text + stlpce + video img */
+
+.obsah-pozadia5 {
+    display: grid;
+    grid-template-columns: repeat(2, 40.625rem /*650px */);
+    grid-template-rows: 600px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 200px; 
+    margin-top: 11.75rem;
+    margin-bottom: 11.75rem;
+}
+
+
+.riadok10 {
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+}
+
+.riadok11 {
+    font-family: sans-serif;
+    font-size: 55px;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.riadok12 {
+    font-size: 20px;
+    margin-bottom: 4rem;
+}
+
+.stlpce {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.bubliny {
+    margin-bottom: 0.4rem;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* tu začína 6. pozadie, text + img galeria */
+
+.obsah-pozadia6 {
+    display: grid;
+    grid-template-columns: 75rem;
+    justify-content: center;
+    text-align: center;
+    color: black;
+}
+
+.riadok13 {
+    font-family: sans-serif;
+    font-size: 60px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.riadok14 {
+    font-size: 26px;
+    margin-bottom: 4rem;
+}
+
+.menu-tretie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.menu-tretie ul{
+    max-width: 100%;
+    display: grid;
+    gap: 20px;
+    padding: 0;
+    list-style: none;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;    
+    color: black;
+
+}
+
+.menu-tretie a {
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    flex-direction: row;
+    font-size: 1.25rem;
+}
+
+
+
+.galeria-container {
+    display: grid;
+    justify-content: center;
+    grid-template-rows: repeat(3, 316px);
+    grid-template-columns: repeat(3, 378px);
+    gap: 2rem;
+}
+
+.galeria-container img {
+    border-radius: 10px;
+}
+
+.galeria-container img:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+/* tu začína 7. pozadie, logo galeria*/
+
+.galeria-container2 {
+    display: grid;
+    grid-template-rows: repeat(2, 150px);
+    grid-template-columns: repeat(4, 300px);
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-top: 2.125rem; /* 34px */
+    margin-bottom: 2.125rem;
+    gap: 2rem;
+}
+
+/* tu začína 8. pozadie, text + chlapik2 */
+
+.obsah-pozadia8 {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(2, 573px);
+    column-gap: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.text3 {
+    color: white;
+}
+
+.riadok15 {
+    font-family: 'Pacifico', cursive;
+    font-size: 35px;
+}
+
+.riadok16 {
+    font-family: sans-serif;
+    font-size: 55px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.riadok17 {
+    font-size: 20px;
+    margin-top: 3rem;
+    margin-left: 5rem;
+    position: relative;
+}
+
+.uvodzovky {
+    font-size: 12rem;
+    position: absolute;
+    line-height: 0px;
+    margin-top: 6rem;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(244, 34, 103);
+}
+
+.hviezdy {
+    margin-left: 5rem;
+    font-size: 2rem;
+    color: rgb(244, 34, 103);
+    margin-top: 4rem;
+}
+
+.zakaznik {
+    font-size: 24px;
+    margin-top: 2rem;
+    margin-left: 5rem;
+}
+
+.chlapik2 {
+    margin-top: 1rem;
+}
+
+/* tu začína 9. pozadie, text + inputy + btn submit */
+
+.obsah-pozadia9 {
+    display: grid;
+    grid-template-columns: 90rem;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2rem;
+    color: white;
+    margin-top: 4.625rem;
+    margin-bottom: 4.625rem;
+}
+
+.riadok18 {
+    font-family: sans-serif;
+    font-size: 50px;
+    margin-bottom: 1rem;
+}
+
+.riadok19 {
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-bottom: 1rem;
+}
+
+.riadok20 {
+    font-size: 22px;
+}
+
+
+.inputy {
+    display: grid;
+    margin-top: 5rem;
+    grid-template-columns: 1fr 1fr 130px;
+    gap: 20px;
+}
+
+.name {
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: none;
+    border-radius: 10px;
+}
+
+.name::placeholder {
+    color: rgb(255, 255, 255);
+    opacity: 1;
+    font-size: 1.1rem;
+    padding-left: 2rem;
+}
+
+.email {
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: none;
+    border-radius: 10px;
+}
+
+.email::placeholder {
+    color: rgb(255, 255, 255);
+    opacity: 1;
+    font-size: 1.1rem;
+    padding-left: 2rem;
+}
+
+
+.submit /*button*/  {
+    background-color: rgb(75, 45, 127);
+    height: 50px;
+    width: 130px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    border-bottom: 6.5px solid rgb(165, 126, 233);
+}
+
+/* tu začína 10. pozadie, grid soc. siete */
+
+.obsah-pozadia10 ul{
+    display: grid;
+    grid-template-rows: 100px;
+    grid-template-columns: repeat(5, 200px);
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    text-decoration: none;
+    margin-top: 2.375rem;
+}
+
+.obsah-pozadia10 a {
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* tu začína 11. pozadie, grid company + galeria 4 fotiek */
+
+.obsah-pozadia11 {
+    display: grid;
+    grid-template-rows: repeat(2, 214px);
+    grid-template-columns: repeat(4, 281px);
+    gap: 1.5rem;
+    text-align: left;
+    justify-content: center;
+    margin-top: 8.375rem;
+    margin-bottom: 8.375rem;
+}
+
+.obsah-pozadia11 h1 {
+    color: rgb(75, 75, 127);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1.2rem;
+    font-size: 1.7rem;
+}
+
+.obsah-pozadia11 h3 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 1.3rem;
+}
+
+.riadok21 {
+    display: flex;
+    flex-direction: column;
+    padding-inline-end: 10.8rem; 
+    justify-content: center;
+}
+
+.riadok22 {
+    display: flex;
+    flex-direction: column;
+    padding-inline-end: 10.8rem; 
+    justify-content: center;
+}
+
+.riadok23 {
+    display: flex;
+    flex-direction: column;
+    padding-inline-end: 10.8rem;
+    justify-content: center;
+}
+
+.riadok24 {
+    display: flex;
+    flex-direction: column;
+    padding-inline-end: 10.8rem; 
+    justify-content: center;
+}
+
+
+/* tu začína pozadie12 - footer */
+
+.obsah-pozadia12 {
+    display: grid;
+    grid-template-columns: 65em;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 3rem 0;
+}
+
+
+/* center */
+.obsah-pozadia12 p {
+    font-size: 1.3rem;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* skuska media query 
+
+@media screen and (width <= 1000px) {
+    .galeria-container {
+        grid-template-columns: 1fr;
+    }
+    
+}
+
+*/
